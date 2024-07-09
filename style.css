@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 1rem;
+    background-color: #f1f1f1; 
+    border: none;
+    cursor: pointer;
+    height: 60%;
+}
+
+.btn-like {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 5rem;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+}
+
+.btn-dislike {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+}
+
+.gradient-background {
+    display: flex;
+    justify-content: center;
+    /* update the colot with JS */
+    background-image: linear-gradient(to right, rgb(118, 201, 64), rgb(182, 63, 63));
+    padding-top: 2rem;
+    height: 100dvh;
+    width: 100%;
+}
