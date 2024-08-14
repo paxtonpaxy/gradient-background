@@ -4,37 +4,29 @@
     box-sizing: border-box;
 }
 
-.btn {
+#changeColorButton {
     padding: 1rem;
-    background-color: #f1f1f1; 
+    color: #fff;
+    background-color: rgb(40, 59, 82); 
     border: none;
+    border-radius: 0.8rem;
     cursor: pointer;
-    height: 60%;
 }
 
-.btn-like {
-    position: absolute;
-    left: 0;
-    top: 20%;
-    width: 5rem;
-    border-top-right-radius: 10rem;
-    border-bottom-right-radius: 10rem;
+#changeColorButton:hover {
+    transition: all ease-in-out 100ms;
+    background-color: rgb(68, 99, 136);
+    border: 1px solid #fff;
+    box-shadow: 1px 2px 11px 5px #ffffff3d;
 }
 
-.btn-dislike {
-    position: absolute;
-    right: 0;
-    top: 20%;
-    border-top-left-radius: 10rem;
-    border-bottom-left-radius: 10rem;
-}
-
-.gradient-background {
+.background {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    /* update the colot with JS */
-    background-image: linear-gradient(to right, rgb(118, 201, 64), rgb(182, 63, 63));
-    padding-top: 2rem;
+    gap: 5rem;
     height: 100dvh;
-    width: 100%;
+    width: 100dvw;
+    background-color: rgb(97, 126, 160);
 }
