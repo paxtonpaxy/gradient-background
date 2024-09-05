@@ -1,3 +1,3 @@
 ## Playground with VanilaJS
 
-Check it out here: https://risticaivan.github.io/gradient-background/
+Check it out here: https://paxtonpaxy.github.io/gradient-background/
